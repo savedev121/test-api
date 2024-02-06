@@ -3,8 +3,8 @@ import { LoggerModule } from "@core/logger/logger.module";
 import { Module } from "@nestjs/common";
 import { ConfigModule } from "@nestjs/config";
 
-import { AuthModule } from "./auth/auth.module";
 import { AppController } from "./app.controller";
+import { AuthModule } from "./auth/auth.module";
 
 @Module({
   controllers: [AppController],
